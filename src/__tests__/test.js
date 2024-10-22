@@ -38,7 +38,7 @@ test("check method levelUp if health 0", () => {
 test("check method damage", () => {
     let undead = new Undead('Sergey');
     undead.damage(10);
-    expect(undead.health).toBe(92);
+    expect(undead.health).toBe(92.5);
 });
 
 test("check Bowerman", ()=> {
